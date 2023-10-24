@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+html {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 1.2;
+    color: #00020E;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}

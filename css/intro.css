@@ -1,0 +1,13 @@
+.intro {
+    height: 771px;
+    background-image: url(../images/MainImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 272px;
+}
+
+.intro-title {
+    color: #fff;
+    max-width: 692px;
+    margin-bottom: 40px;
+}
