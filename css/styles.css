@@ -5,3 +5,26 @@
 @import './fonts.css';
 @import './intro.css';
 @import './navbar.css';
+@import './button.css';
+
+/* City-info */
+.city-img {
+    border-radius: 30px;
+}
+
+.col-text {
+    max-width: 488px;
+}
+
+.city-info {
+    margin-bottom: 140px;
+}
+
+/* City-info */
+
+/* City-info */
+.section-header {
+    margin-bottom: 50px;
+}
+
+/* City-info */

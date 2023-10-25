@@ -4,3 +4,25 @@
     margin: 0 auto;
     padding: 0 16px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-block {
+    margin-bottom: 80px;
+}
+
+.col {
+    flex: 0 0 auto;
+}
+
+.col-center {
+    align-self: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,28 @@
+.button-primary {
+    padding: 19px 61px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #FFDD2D;
+    color: #00020E;
+    font-family: 'Inter';
+    line-height: 1.4;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.section-button {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button-primary:hover {
+    border: 2px solid rgba(102, 112, 128, 0.40);
+    color: #667080;
+}
+
+.button-primary:focus {
+    background-color: #FFE606;
+    color: #00020E;
+}
