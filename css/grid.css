@@ -26,3 +26,19 @@
 .reverse {
     flex-direction: row-reverse;
 }
+
+.row-space-around {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.padding-top {
+    padding-top: 20px;
+}
