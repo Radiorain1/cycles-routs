@@ -158,11 +158,6 @@
     color: #fff;
 }
 
-.subscription-input-container {
-    display: flex;
-    justify-content: center;
-}
-
 .subscription-form-control {
     display: flex;
     flex-wrap: nowrap;
@@ -171,7 +166,7 @@
     background: #fff;
     width: 100%;
     max-width: 387px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .subscription-input {
@@ -220,7 +215,7 @@ ul.list-horizontal li {
 .info-li {
     color: #fff;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 /* Footer */
