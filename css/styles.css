@@ -73,7 +73,7 @@
     margin-right: 5px;
     width: 24px;
     height: 24px;
-    background-image: url(../images/route-icon1.svg);
+    background-image: url(../icon/route-icon1.svg);
 }
 
 .list-item2::before {
@@ -83,7 +83,7 @@
     margin-right: 5px;
     width: 24px;
     height: 24px;
-    background-image: url(../images/route-icon2.svg);
+    background-image: url(../icon/route-icon2.svg);
 }
 
 .list-item3::before {
@@ -93,7 +93,7 @@
     margin-right: 5px;
     width: 24px;
     height: 24px;
-    background-image: url(../images/route-icon3.svg);
+    background-image: url(../icon/route-icon3.svg);
 }
 
 .list-button {
