@@ -1,27 +1,32 @@
 a {
-    outline: none !important;
+  outline: none !important;
+}
+
+p {
+  margin: 0 0 15px;
 }
 
 h1,
 h2,
 h3 {
-    font-weight: 700;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
 }
 
 h2,
 h3 {
-    line-height: 1.4;
-}
-
-h1 {
-    font-size: 50px;
-    line-height: 1.1;
+  line-height: 1.4;
 }
 
 h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 h3 {
-    font-size: 25px;
+  font-size: 25px;
 }

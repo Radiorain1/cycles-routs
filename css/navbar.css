@@ -1,72 +1,76 @@
 .navbar-brand {
-    color: #FFDD2D;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 800;
-    line-height: 1.4;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  color: #ffdd2d;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-brand-with-indent {
+  padding-top: 20px;
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .navbar-collapse {
-    flex-basis: 100%;
+  flex-basis: 100%;
 }
 
 .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 .nav-link {
-    display: flex;
-    color: #fff;
-    text-decoration: none;
-    padding: 20px;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
 }
 
 .nav-link:hover,
 .nav-link:active {
-    color: #FFDD2D;
-    text-decoration: none;
+  color: #ffdd2d;
+  text-decoration: none;
 }
 
 .navbar-toggler {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .collapsing {
-    height: 0;
-    overflow: hidden;
-    transition: height 0.35s ease;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
 }
 
 .collapse:not(.show) {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 992px) {
-    .navbar .navbar-collapse {
-        display: flex;
-    }
+  .navbar .navbar-collapse {
+    display: flex;
+  }
 
-    .navbar-nav {
-        flex-direction: row;
-    }
+  .navbar-nav {
+    flex-direction: row;
+  }
 
-    .navbar-collapse {
-        flex-basis: auto;
-    }
+  .navbar-collapse {
+    flex-basis: auto;
+  }
 
-    .navbar-toggler {
-        display: none;
-    }
+  .navbar-toggler {
+    display: none;
+  }
 }

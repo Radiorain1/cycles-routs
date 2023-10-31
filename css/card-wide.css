@@ -1,0 +1,31 @@
+.card-wide {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-wide:not(:first-child) {
+  margin-top: 80px;
+}
+
+.card-wide:not(.card-wide-reverce) > div:first-child {
+  padding-right: 80px;
+}
+
+.card-wide-reverce > div:first-child {
+  order: 1;
+  padding-left: 80px;
+}
+
+.card-wide-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.card-wide-title {
+  margin-bottom: 30px;
+}

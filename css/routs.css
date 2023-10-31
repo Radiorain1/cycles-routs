@@ -1,0 +1,85 @@
+.routs {
+  margin-bottom: 140px;
+}
+
+.section-header {
+  margin-bottom: 50px;
+}
+
+.card {
+  position: relative;
+  height: 470px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 164px;
+  padding: 0 30px 30px;
+  background-color: rgba(32, 32, 32, 0.3);
+  backdrop-filter: blur(2.5px);
+  color: #fff;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.card-list-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 5px;
+}
+
+.card-list-item:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.card-list-item-distance:before {
+  background-image: url(../icon/route-icon1.svg);
+}
+
+.card-list-item-duration:before {
+  background-image: url(../icon/route-icon2.svg);
+}
+
+.card-list-item-level:before {
+  background-image: url(../icon/route-icon3.svg);
+}
+
+.card-button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
