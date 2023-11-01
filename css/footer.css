@@ -1,23 +1,6 @@
 .footer-container {
-  background-color: #00020e;
   padding: 50px 0;
-}
-
-.list-info {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.info-li {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-text {
+  background-color: #00020e;
   color: #fff;
 }
 
@@ -25,10 +8,9 @@
   display: flex;
   flex-wrap: nowrap;
   border-radius: 20px;
-  border: 2px solid #fff;
   background: #fff;
-  width: 100%;
-  max-width: 387px;
+  width: 387px;
+  height: 46px;
   margin-bottom: 50px;
 }
 
@@ -61,16 +43,6 @@
   padding: 0 20px;
 }
 
-.footer-text {
-  padding: 0 0 5px 0;
-}
-
-.list-horizontal {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-ul.list-horizontal li {
-  margin-right: 20px;
+.footer-link:hover > svg > path {
+  stroke: #fff;
 }

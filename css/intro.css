@@ -1,19 +1,19 @@
 .intro {
-    height: 850px;
-    background-image: url(../images/MainImg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 272px;
-    margin-bottom: 140px;
+  height: 850px;
+  background-image: url(../images/MainImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 272px;
+  margin-bottom: 140px;
 }
 
 .intro-title {
-    color: #fff;
-    max-width: 692px;
-    margin-bottom: 40px;
+  color: #fff;
+  max-width: 692px;
+  margin-bottom: 40px;
 }
 
 .intro-button {
-    width: 100%;
-    max-width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
