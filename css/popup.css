@@ -16,6 +16,15 @@
   margin-bottom: 20px;
 }
 
+.popup-content {
+  line-height: 1.6;
+}
+
+.popup-content .badge {
+  display: inline-flex;
+  margin-top: -6px;
+}
+
 .popup-button {
   margin-top: 20px;
   width: 100%;

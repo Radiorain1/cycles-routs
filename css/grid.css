@@ -18,16 +18,3 @@
   flex: 0 0 auto;
   width: 50%;
 }
-
-.row-space-around {
-  display: flex;
-  justify-content: space-around;
-  overflow-x: hidden;
-  padding: 10px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 40%;
-  grid-gap: 30px;
-}

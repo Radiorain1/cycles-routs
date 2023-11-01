@@ -1,8 +1,15 @@
-.gallery {
+.gallery-container {
   scroll-margin-top: 200px;
   margin-bottom: 140px;
 }
 
-.gallery-img {
-  padding-right: 20px;
+.gallery-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gallery-row + .gallery-row {
+  margin-top: 20px;
 }
