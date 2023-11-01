@@ -10,21 +10,3 @@
   position: relative;
   scroll-margin-top: 150px;
 }
-
-.map-popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-  max-width: 590px;
-  padding: 55px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-}
-
-.popup-title {
-  margin-bottom: 20px;
-}

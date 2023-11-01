@@ -17,12 +17,6 @@
   max-width: 300px;
 }
 
-.popup-button {
-  margin-top: 20px;
-  width: 100%;
-  max-width: 260px;
-}
-
 .button-primary:hover {
   border: 2px solid rgba(102, 112, 128, 0.4);
   color: #667080;
