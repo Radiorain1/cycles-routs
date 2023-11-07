@@ -2,3 +2,11 @@
   margin-bottom: 140px;
   scroll-margin-top: 200px;
 }
+
+@media (max-width: 992px) {
+  .city-info {
+    margin-bottom: 50px;
+    scroll-margin-top: 120px;
+  }
+
+}

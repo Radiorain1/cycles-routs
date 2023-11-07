@@ -9,7 +9,7 @@
   flex-wrap: nowrap;
   border-radius: 20px;
   background: #fff;
-  width: 387px;
+  max-width: 387px;
   height: 46px;
   margin-bottom: 50px;
 }
@@ -41,8 +41,13 @@
   outline: none;
   background-color: transparent;
   padding: 0 20px;
+  cursor: pointer;
 }
 
-.footer-link:hover > svg > path {
-  stroke: #fff;
+.footer-link:hover>svg>path {
+  stroke: #ffdd2d;
+}
+
+.subscription-btn:hover>svg>path {
+  stroke: #ffdd2d;
 }

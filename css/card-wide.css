@@ -9,11 +9,11 @@
   margin-top: 80px;
 }
 
-.card-wide:not(.card-wide-reverce) > div:first-child {
+.card-wide:not(.card-wide-reverce)>div:first-child {
   padding-right: 80px;
 }
 
-.card-wide-reverce > div:first-child {
+.card-wide-reverce>div:first-child {
   order: 1;
   padding-left: 80px;
 }
@@ -28,4 +28,35 @@
 
 .card-wide-title {
   margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .card-wide {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .card-wide-reverce>div:first-child {
+    order: 1;
+    padding-left: 0px;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .card-wide:not(:first-child) {
+    margin-top: 0px;
+  }
+
+  .card-wide-img {
+    padding: 20px 0;
+  }
+
+  .section-button {
+    margin: 0;
+    max-width: 100%;
+  }
+
 }
