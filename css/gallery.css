@@ -10,25 +10,13 @@
   overflow: hidden;
 }
 
-.gallery-row+.gallery-row {
+.gallery-row + .gallery-row {
   margin-top: 20px;
 }
 
-#Gallery-mob {
-  display: none;
-}
-
 @media (max-width: 992px) {
-  #Gallery {
-    display: none;
-  }
-
-  #Gallery-mob {
-    display: block;
-  }
-
   .gallery-container {
+    scroll-margin-top: 140px;
     margin-bottom: 50px;
   }
-
 }

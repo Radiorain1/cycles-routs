@@ -12,6 +12,7 @@
   height: 470px;
   border-radius: 30px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .card-img {
