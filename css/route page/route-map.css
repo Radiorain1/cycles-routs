@@ -1,0 +1,32 @@
+.route-map-section {
+    margin-bottom: 100px;
+}
+
+.route-map-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.route-map-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.route-map-button {
+    border: 2px solid rgba(102, 112, 128, 0.4);
+    color: #667080;
+    background: #FFF;
+}
+
+.route-map-button:hover {
+    border: 2px solid #FFDD2D;
+    background: #FFF;
+    color: #000;
+}
+
+.route-map-button:focus {
+    border: 2px solid rgba(102, 112, 128, 0.4);
+    background: #FFDD2D;
+    color: #000;
+}

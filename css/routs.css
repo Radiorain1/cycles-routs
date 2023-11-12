@@ -78,6 +78,18 @@
   background-image: url(../icon/route-icon3.svg);
 }
 
+.card-list-item-distance-black:before {
+  background-image: url(../icon/route-icon1-black.svg);
+}
+
+.card-list-item-duration-black:before {
+  background-image: url(../icon/route-icon2-black.svg);
+}
+
+.card-list-item-level-black:before {
+  background-image: url(../icon/route-icon3-black.svg);
+}
+
 .card-button {
   display: flex;
   background-color: transparent;
