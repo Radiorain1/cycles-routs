@@ -1,0 +1,25 @@
+.rating-section {
+  margin-bottom: 80px;
+}
+
+.rating-title {
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating-text {
+  margin-left: 10px;
+}
+
+.rating-list {
+  margin-bottom: 30px;
+}
+
+.rating-description {
+  max-width: 350px;
+}

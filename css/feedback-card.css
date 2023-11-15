@@ -1,0 +1,21 @@
+.feedback-card-title {
+  margin-bottom: 5px;
+}
+
+.feedback-card-img {
+  margin-bottom: 30px;
+}
+
+.feedback-card {
+  border-radius: 30px;
+  background: #ecf1f7;
+  height: 438px;
+  padding: 40px 50px;
+}
+
+.feedback-card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

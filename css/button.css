@@ -11,12 +11,6 @@
   cursor: pointer;
 }
 
-.section-button {
-  margin-top: 30px;
-  width: 100%;
-  max-width: 300px;
-}
-
 .button-primary:hover {
   border: 2px solid rgba(102, 112, 128, 0.4);
   color: #667080;
@@ -25,4 +19,40 @@
 .button-primary:focus {
   background-color: #ffe606;
   color: #00020e;
+}
+
+.button-outlined {
+  padding: 19px 61px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Inter';
+  line-height: 1.4;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid rgba(102, 112, 128, 0.4);
+  color: #667080;
+  background: #fff;
+}
+
+.button-outlined:hover {
+  border: 2px solid #ffdd2d;
+  background: #fff;
+  color: #000;
+}
+
+.button-outlined:focus {
+  border: 2px solid rgba(102, 112, 128, 0.4);
+  background: #ffdd2d;
+  color: #000;
+}
+
+.section-button {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button-block {
+  width: 100%;
+  display: block;
 }

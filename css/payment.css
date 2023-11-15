@@ -1,0 +1,26 @@
+.payment-section {
+  margin-bottom: 140px;
+}
+
+.payment-subtitle {
+  margin-bottom: 10px;
+}
+
+.payment-description {
+  max-width: 350px;
+}
+
+.payment-text {
+  margin-bottom: 50px;
+}
+
+.lang-select {
+  background: #ecf1f7;
+  border: 0;
+}
+
+.payment-subscribtion-btn {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
