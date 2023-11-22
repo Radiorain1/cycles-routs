@@ -75,3 +75,34 @@
 .swiper-button-next-bottom-right:after {
   background-image: url(../icon/arrow-right-white.svg);
 }
+
+@media (max-width: 992px) {
+  .swiper-p-b-mobile {
+    padding-bottom: 95px;
+  }
+
+  .swiper-button-next-bottom-left {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(125%);
+  }
+
+  .swiper-button-prev-bottom-left {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-125%);
+  }
+
+  .swiper-button-next-bottom-right {
+    bottom: 0;
+    left: 37%;
+    transform: translateX(125%);
+  }
+
+  .swiper-button-prev-bottom-right {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-125%);
+  }
+
+}

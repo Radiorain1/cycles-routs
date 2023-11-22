@@ -23,9 +23,14 @@ main.with-indent {
 }
 
 @media (max-width: 992px) {
+
   body,
   html {
     font-size: 14px;
     line-height: 1.6;
+  }
+
+  main.with-indent {
+    margin-top: 140px;
   }
 }

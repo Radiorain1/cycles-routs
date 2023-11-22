@@ -24,3 +24,26 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media (max-width: 992px) {
+  .button-outlined {
+    width: 100%;
+  }
+
+  .feedback-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .row-reverse-mobile {
+    flex-direction: row-reverse;
+  }
+
+  .payment-section {
+    margin-bottom: 40px;
+  }
+
+  .payment-subscribtion-btn {
+    padding-top: 40px;
+  }
+}

@@ -17,3 +17,30 @@
 .route-map-text {
   max-width: 500px;
 }
+
+.route-map-img-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .route-map-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .route-map-section {
+    margin-bottom: 40px;
+  }
+
+  .route-map-img {
+    display: none;
+  }
+
+  .route-map-img-mobile {
+    display: block;
+  }
+}
