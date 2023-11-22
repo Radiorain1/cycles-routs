@@ -1,5 +1,5 @@
 .rating-section {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .rating-title {
@@ -20,18 +20,12 @@
   margin-bottom: 30px;
 }
 
-.rating-description {
-  max-width: 350px;
-}
-
-@media (max-width: 992px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+@media (min-width: 992px) {
+  .rating-section {
+    margin-bottom: 80px;
   }
 
-  .rating-section {
-    margin-bottom: 40px;
+  .rating-description {
+    max-width: 350px;
   }
 }

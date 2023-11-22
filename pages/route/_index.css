@@ -19,6 +19,7 @@
 @import '../../css/badge.css';
 
 /* custom */
+@import '../../css/breadcrumb.css';
 @import '../../css/rating.css';
 @import '../../css/route-map.css';
 @import '../../css/payment.css';

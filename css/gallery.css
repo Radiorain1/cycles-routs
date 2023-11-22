@@ -1,6 +1,6 @@
 .gallery-container {
-  scroll-margin-top: 200px;
-  margin-bottom: 140px;
+  scroll-margin-top: 140px;
+  margin-bottom: 50px;
 }
 
 .gallery-row {
@@ -14,9 +14,9 @@
   margin-top: 20px;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .gallery-container {
-    scroll-margin-top: 140px;
-    margin-bottom: 50px;
+    scroll-margin-top: 200px;
+    margin-bottom: 140px;
   }
 }
