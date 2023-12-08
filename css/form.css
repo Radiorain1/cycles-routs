@@ -29,3 +29,15 @@ select.form-control {
   background-position-x: calc(100% - 15px);
   background-position-y: center;
 }
+
+.form-check-inline {
+  display: inline-block;
+}
+
+.form-check-inline + .form-check-inline {
+  margin-left: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}

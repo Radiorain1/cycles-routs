@@ -1,18 +1,25 @@
-.button-primary {
-  padding: 19px 61px;
-  font-size: 15px;
-  font-weight: 600;
-  background: #ffdd2d;
-  color: #00020e;
+.button {
   font-family: 'Inter';
   line-height: 1.4;
   border-radius: 20px;
-  border: 2px solid transparent;
+  padding: 19px 61px;
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.button-primary {
+  background-color: #ffdd2d;
+  border-color: #ffdd2d;
+  color: #00020e;
 }
 
 .button-primary:hover {
-  border: 2px solid rgba(102, 112, 128, 0.4);
+  border-color: rgba(102, 112, 128, 0.4);
   color: #667080;
 }
 
@@ -22,28 +29,28 @@
 }
 
 .button-outlined {
-  padding: 19px 61px;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: 'Inter';
-  line-height: 1.4;
-  border-radius: 20px;
-  cursor: pointer;
-  border: 2px solid rgba(102, 112, 128, 0.4);
+  background-color: #fff;
+  border-color: rgba(102, 112, 128, 0.4);
   color: #667080;
-  background: #fff;
 }
 
 .button-outlined:hover {
-  border: 2px solid #ffdd2d;
-  background: #fff;
+  background-color: #fff;
+  border-color: #ffdd2d;
   color: #000;
 }
 
 .button-outlined:focus {
-  border: 2px solid rgba(102, 112, 128, 0.4);
-  background: #ffdd2d;
+  background-color: #ffdd2d;
+  border-color: rgba(102, 112, 128, 0.4);
   color: #000;
+}
+
+.button-link {
+  padding: 0;
+  border: 0;
+  line-height: 1.2;
+  color: #667080;
 }
 
 .section-button {

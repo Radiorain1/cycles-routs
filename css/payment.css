@@ -26,6 +26,7 @@
 }
 
 @media (max-width: 992px) {
+  /* TODO: romove this or change on basic classs like .btn-block */
   .button-outlined {
     width: 100%;
   }
