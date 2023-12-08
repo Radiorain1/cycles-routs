@@ -24,3 +24,6 @@
 @import '../../css/route-map.css';
 @import '../../css/payment.css';
 @import '../../css/feedback-card.css';
+
+/* custom */
+@import '../../css/paymentform.css';

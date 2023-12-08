@@ -1,0 +1,47 @@
+.paymentform-section {
+    margin-bottom: 130px;
+}
+
+.paymentform-title {
+    margin-bottom: 20px;
+}
+
+.paymentform-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-check-inline {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.paymentform-button {
+    width: 100%;
+}
+
+.paymentform-control {
+    width: 100%;
+    height: 50px;
+    color: #00020e;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 1.4;
+    background-color: transparent;
+    border: 1px solid rgba(102, 112, 128, 0.4);
+    padding: 11px 26px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.valid-feedback {
+    display: none;
+    width: 100%;
+    color: #5CCE27;
+}
