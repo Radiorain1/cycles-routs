@@ -10,6 +10,11 @@
   flex-wrap: wrap;
 }
 
+.row-mb {
+  margin-bottom: 20px;
+  display: flex;
+}
+
 .row-nowrap {
   display: flex;
   flex-wrap: nowrap;
