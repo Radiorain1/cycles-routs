@@ -9,3 +9,9 @@
 .payment-form {
   max-width: 434px;
 }
+
+@media (max-width: 992px) {
+  .payment-form-section {
+    margin-bottom: 70px;
+  }
+}

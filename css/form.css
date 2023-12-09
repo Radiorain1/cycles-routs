@@ -34,10 +34,71 @@ select.form-control {
   display: inline-block;
 }
 
-.form-check-inline + .form-check-inline {
+.form-check-inline+.form-check-inline {
   margin-left: 10px;
 }
 
 .form-group {
   margin-bottom: 15px;
+}
+
+.form-label {
+  color: #667080;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]+label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+input[type="radio"]+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #66708066;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked+label:before {
+  background-image: url(../icon/radio-dot.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  border: 2px solid #000;
+}
+
+.form-check-input~.form-check-label {
+  color: #66708066;
+}
+
+.form-check-input:checked~.form-check-label {
+  color: #00020e;
+}
+
+.form-control::placeholder {
+  color: rgba(102, 112, 128, 0.40);
+}
+
+@media (max-width: 992px) {
+  input[type="radio"]+label:before {
+    width: 15px;
+    height: 15px;
+  }
+
+  input[type="radio"]+label {
+    padding-left: 19px;
+  }
+
+  input[type="radio"]:checked+label:before {
+    background-image: url(../icon/radio-dot-mobile.png);
+  }
 }
