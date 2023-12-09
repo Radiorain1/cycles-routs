@@ -14,6 +14,7 @@
   padding: 11px 26px;
   outline: none;
   border-radius: 20px;
+  transition: border-color 0.15s ease-in-out;
 }
 
 select {
@@ -34,7 +35,7 @@ select.form-control {
   display: inline-block;
 }
 
-.form-check-inline+.form-check-inline {
+.form-check-inline + .form-check-inline {
   margin-left: 10px;
 }
 
@@ -46,59 +47,76 @@ select.form-control {
   color: #667080;
 }
 
-input[type="radio"] {
+input[type='radio'] {
   display: none;
 }
 
-input[type="radio"]+label {
+input[type='radio'] + label {
   position: relative;
   padding-left: 25px;
   cursor: pointer;
 }
 
-input[type="radio"]+label:before {
+input[type='radio'] + label:before,
+input[type='radio'] + label:after {
   content: '';
   position: absolute;
-  left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  border: 2px solid #66708066;
   border-radius: 50%;
 }
 
-input[type="radio"]:checked+label:before {
-  background-image: url(../icon/radio-dot.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+input[type='radio'] + label:before {
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #66708066;
+}
+
+input[type='radio']:checked + label:before {
   border: 2px solid #000;
 }
 
-.form-check-input~.form-check-label {
+input[type='radio']:checked + label:after {
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 6px;
+}
+
+.form-check-label {
   color: #66708066;
 }
 
-.form-check-input:checked~.form-check-label {
+.form-check-input:checked ~ .form-check-label {
   color: #00020e;
 }
 
 .form-control::placeholder {
-  color: rgba(102, 112, 128, 0.40);
+  color: rgba(102, 112, 128, 0.4);
+}
+
+.form-control:hover {
+  border-color: rgba(102, 112, 128, 0.8);
+}
+
+.form-control:focus {
+  border-color: rgba(102, 112, 128, 1);
 }
 
 @media (max-width: 992px) {
-  input[type="radio"]+label:before {
+  input[type='radio'] + label:before {
     width: 15px;
     height: 15px;
   }
 
-  input[type="radio"]+label {
+  input[type='radio'] + label {
     padding-left: 19px;
   }
 
-  input[type="radio"]:checked+label:before {
-    background-image: url(../icon/radio-dot-mobile.png);
+  input[type='radio']:checked + label:after {
+    width: 7px;
+    height: 7px;
   }
 }
